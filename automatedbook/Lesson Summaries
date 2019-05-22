@@ -19,6 +19,27 @@ Call the function "bacon" in module "spam" via: spam.bacon()
 Use: range(0,11,2) to list 0,2,4,6,8,10.
 Use: range(11,0,-2) to list 11,9,7,5,3,1
 
+Chapter 3 -- FUNCTIONS
+Organize your code by creating your own functions.
+Start by def funcname():
+Call it via funcname()
+
+Local variables inside the function only exist within that function.
+These values though can be returned outside via return n. EXAMPLE:
+
+import random
+def getAnswer(answerNumber):
+     if answerNumber == 1:
+           return 'It is certain'
+     else:
+           return 'Very doubtful'
+r = random.randint(1, 2)
+fortune = getAnswer(r)
+print(fortune)
+
+To avoid crashed in your program do
+try:
+except errorclause:
 
 
 
