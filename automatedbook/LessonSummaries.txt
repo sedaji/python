@@ -47,7 +47,14 @@ Copying a list variable into another copies the pointer or reference, and so any
 A workaround this is with module copy and the function copy. So ~ import copy and call copy.copy()
 There are many things you can do with a list. [1:3] evaluates from items 1 to 2 in the list. 
 [-1] evaluates the last item in the list. 
-Then there are tuples which take the form of () and are immutable. You can change the data type and tuple a list with tuple(['hi]) and list a tuple with list[('hey')]. 
+Then there are tuples which take the form of () and are immutable. 
+You can change the data type and tuple a list with tuple(['hi]) and list a tuple with list[('hey')]. 
+
+        Chapter 5 -- DICTIONARIES
+Dictionaries are like lists but have keys associated with them and they use {}
+An example is: cat{'size':'fat'} and print(cat['size']) evaluates to fat. 
+Dictionaries are not ordered, and two scrambled dicts with same keys and values would equal to each other.
+
 
 
 
