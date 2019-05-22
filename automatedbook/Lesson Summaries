@@ -1,0 +1,24 @@
+Chapter 1 -- BASICS
+It is good to remember the different types of operators 
+(+, -, *, /, //, %, and ** for math operations, and + and * for string operations) 
+and the three data types (integers, floating-point numbers, and strings).
+Interestingly, you can do operations on strings. '3' * 3 evaluates to the string '33' 
+and you can even do int('3' * 3) to get the integer 33 instead of 
+getting 9 with (3 * 3).
+input() for user input evaluates to a string unless prefixed with int()
+
+Chapter 2 -- FLOW CONTROLS
+Give your program certain conditions (True/False) to run certain clauses of codes. 
+Operations that these involve are: == , < , <= , > , >= , !=. 
+Multiple parameters for your Booleans with "AND" / "OR" (practical use need not be capitalized)
+This makes for an interesting programs and unpredictability: this combined with user input, the possibilities are endless.
+Can be acheived via: if, elif, and else.
+The continue function to loop back to the beginning of a loop
+The break function to exit a loop. 
+Call the function "bacon" in module "spam" via: spam.bacon()
+
+
+
+
+    
+
