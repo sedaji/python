@@ -16,6 +16,8 @@ Can be acheived via: if, elif, and else.
 The continue function to loop back to the beginning of a loop
 The break function to exit a loop. 
 Call the function "bacon" in module "spam" via: spam.bacon()
+Use: range(0,11,2) to list 0,2,4,6,8,10.
+Use: range(11,0,-2) to list 11,9,7,5,3,1
 
 
 
