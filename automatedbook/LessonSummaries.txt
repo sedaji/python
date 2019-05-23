@@ -26,15 +26,15 @@ Call it via funcname()
 Local variables inside the function only exist within that function.
 These values though can be returned outside via return n. EXAMPLE:
 
-                    import random
-                    def getAnswer(answerNumber):
-                         if answerNumber == 1:
-                               return 'It is certain'
-                         else:
-                               return 'Very doubtful'
-                    r = random.randint(1, 2)
-                    fortune = getAnswer(r)
-                    print(fortune)
+                import random
+                def getAnswer(answerNumber):
+                 if answerNumber == 1:
+                       return 'It is certain'
+                 else:
+                       return 'Very doubtful'
+                r = random.randint(1, 2)
+                fortune = getAnswer(r)
+                print(fortune)
 
 To avoid crashed in your program do
 try:
@@ -54,7 +54,21 @@ You can change the data type and tuple a list with tuple(['hi]) and list a tuple
 Dictionaries are like lists but have keys associated with them and they use {}
 An example is: cat{'size':'fat'} and print(cat['size']) evaluates to fat. 
 Dictionaries are not ordered, and two scrambled dicts with same keys and values would equal to each other.
+Guarentee a value is set if not already with the setdefault() function that takes two arguments, first is the key, second is value. 
+                spam.setdefault('color', 'white')
+A way to itterate over each char in a string and count how many times each occurs is with the following code.
+pprint is pretty print and makes output easier to read. 
 
+                import pprint
+                message = 'It was a bright cold day in April, and the clocks were striking
+                thirteen.'
+                count = {}
+
+                for character in message:
+                    count.setdefault(character, 0)
+                    count[character] = count[character] + 1
+
+                pprint.pprint(count)
 
 
 
