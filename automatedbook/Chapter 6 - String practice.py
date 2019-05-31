@@ -1,14 +1,16 @@
 orange = {'friends': 24, 'enemies': 5, 'family': 18, 'hobbies': 7}
 
 def godamfunction(message, left, right):
-    print('\n\tCongrats bitch you did it!\n')
+    print(' Congrats bitch you did it! '.center(40,'*'))
     for k,v in message.items():
-        print('\t'+k.ljust(left,'.')+(str(v).rjust(right)))
-        
-print('\n\tleft: ',end='')    
+        print(k.ljust(left,'.')+(str(v).rjust(right,'.')))
+print()        
+print('left: ',end='')    
 x = int(input())
-print('\tright: ', end='')
+print('right: ', end='')
 y = int(input())
+print()
 godamfunction(orange, x, y)
 
-https://onlinegdb.com/ry11o10TE
+
+https://onlinegdb.com/rJ9wVgAa4
