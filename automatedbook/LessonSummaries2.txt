@@ -1,0 +1,3 @@
+Learn about string manipulation. A string can be manipulated via dictating indentation, or length.
+'string'.ljust(10,'.') will take a string and if it is under 10 chars in length, will fill the left end with '.'
+so we can now use rjust(), ljust(), and center()
