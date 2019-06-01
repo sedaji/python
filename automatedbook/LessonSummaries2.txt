@@ -1,3 +1,18 @@
 Learn about string manipulation. A string can be manipulated via dictating indentation, or length.
 'string'.ljust(10,'.') will take a string and if it is under 10 chars in length, will fill the left end with '.'
 so we can now use rjust(), ljust(), and center()
+
+pyperclip can be downloaded via pip3 install pyperclip.
+this allows python compatability with clipboard. you can run scripts that will set your clipboard to anything you want.
+
+''' On Windows, you can create a batch file to run this program with the WIN-R Run window. (For more about batch files, see Appendix B.) Type the following into the file editor and save the file as pw.bat in the C:\Windows folder:
+
+@py.exe C:\Python34\pw.py %*
+@pause
+With this batch file created, running the password-safe program on Windows is just a matter of pressing WIN-R and typing pw <account name>.
+
+'''
+
+
+
+
