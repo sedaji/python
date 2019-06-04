@@ -14,6 +14,13 @@ With this batch file created, running the password-safe program on Windows is ju
 
 '''
 
+    CHAPTER 7 - REGULAR EXPRESSIONS
+    
+To search regular expressions is sort of a multi step process. Get it set up via import re
+then you can call var = re.compile(r'\d\d or whatever pattern') and this creates a Regex object.
+then we do var.search('String') where String contains our pattern somewhere in it. 
+Finally we can do print(var.group()). This handy pattern searching can help one find phone numbers, emails, get creative!
+
 
 
 
