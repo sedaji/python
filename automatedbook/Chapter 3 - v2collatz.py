@@ -14,7 +14,6 @@ y = str(x)
 count = 0
 
 while(x != 1):
-
 	if (x % 2 == 0):
 		print('\t' + str(x)+' / 2 = ', end ='')
 		x = x // 2
@@ -25,7 +24,6 @@ while(x != 1):
 	print(x,flush=True)
 	time.sleep(0.005)
 	count += 1
-
 print()
 time.sleep(0.7)
 
