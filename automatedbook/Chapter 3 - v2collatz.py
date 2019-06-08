@@ -1,5 +1,8 @@
 #! /usr/bin/python3
 
+''' Collatz is a mathematical phenomenon. It states that given any integer, it will eventually always return the integer '1' through two forumlas. 
+Even integers are divided by 2 and odd integers are multiplied by 3 and added by 1. '''
+
 import time 
 
 def typeit(stringX):
