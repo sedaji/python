@@ -9,7 +9,6 @@ for i in range(listlength):
 sorted = 0
 
 def sort(x):
-    counter = 0
     for i in range(len(x)):
         for j in range(len(x)-(i+1)):
             j += 1
