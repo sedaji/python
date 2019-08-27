@@ -1,3 +1,3 @@
 Example of Selection Sort program. 
 
-![image](https://raw.githubusercontent.com/sedaji/python/master/functions/ssort.png)
+![image](https://github.com/sedaji/python/blob/master/functions/sort1.png?raw=true)
