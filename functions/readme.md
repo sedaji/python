@@ -1,4 +1,4 @@
-# Random Scripts I think of.
+# Random Scripts that I think of.
 
 First random function: 
 Selection Sort program. 
